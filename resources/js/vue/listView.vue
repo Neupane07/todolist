@@ -8,22 +8,19 @@
             />
         </div>
     </div>
-
 </template>
 
 <script>
-import listItem from "./listItem"
+import listItem from "./listItem";
 export default {
-    props: ['items'],
+    props: ["items"],
     components: {
         listItem
     }
-
-}
+};
 </script>
 <style scoped>
-.item{
-    background: #e6e6e6;
+.item {
     padding: 5px;
     width: 100%;
 }
